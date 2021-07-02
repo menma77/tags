@@ -1,0 +1,7 @@
+طريقة  فعالة لمنع نسخ و نقل مواضيع بلوجر عبر منع الزوار من تحديد اي نص على مواضيعك 
+و ايضا تعطيل خاصية زر يمين الفارة و ايضا تعطيل خاصية نسخ عبر اختصار لوحة مفاتيح Ctrl + C فى مواضيع بلوجر
+قم باستبدال وسم <body>  بالكود التالي : 
+يالكود 
+<body expr:class='data:blog.pageType' oncontextmenu='return false;' onkeydown='return true;' onmousedown='return true;'>
+
+
