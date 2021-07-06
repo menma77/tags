@@ -2,6 +2,6 @@
 و ايضا تعطيل خاصية زر يمين الفارة و ايضا تعطيل خاصية نسخ عبر اختصار لوحة مفاتيح Ctrl + C فى مواضيع بلوجر
 قم باستبدال وسم <body>  بالكود التالي : 
 يالكود 
-<body expr:class='data:blog.pageType' oncontextmenu='return false;' onkeydown='return true;' onmousedown='return true;'>
+<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;'>
 
 
